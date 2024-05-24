@@ -20,10 +20,11 @@
               ncurses.dev
               pkg-config
               wget
-              unzip
+	      unzip
+              gettext
               libxcrypt
               pkgsCross.aarch64-multiplatform.glibc.static
-              pkgsCross.aarch64-multiplatform.gccStdenv.cc
+	      pkgsCross.aarch64-multiplatform.gccStdenv.cc
             ] ++ pkgs.linux.nativeBuildInputs);
         }).env;
       };
